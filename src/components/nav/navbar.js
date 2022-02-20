@@ -39,7 +39,7 @@ const Navbar = () => {
                 </div>
               </div>
             </Link>
-            <Link to="/" className="nav_item">
+            <Link to="/Outreach" className="nav_item">
               <div className="nav-link">Outreach</div>
             </Link>
             <Link to="/" className="nav_item">
@@ -83,7 +83,7 @@ const Navbar = () => {
               </div>
             </div>
           </Link>
-          <Link to="/" className="nav_item" onClick={menuToggle}>
+          <Link to="/Outreach" className="nav_item" onClick={menuToggle}>
             <div className="nav-link">Outreach</div>
           </Link>
           <Link to="/" className="nav_item" onClick={menuToggle}>

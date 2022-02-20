@@ -1,5 +1,6 @@
 import React from "react";
 import jeff from "./img/jeff-edit.png";
+import Helmet from "react-helmet";
 
 const About = () => {
   return (

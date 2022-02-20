@@ -5,6 +5,7 @@ import Navbar from "./components/nav/navbar";
 import Schedule from "./pages/schedule";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
+import Outreach from "./pages/Outreach";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route exact path="/Schedule" component={Schedule} />
           <Route exact path="/Contact" component={Contact} />
           <Route exact path="/About" component={About} />
+          <Route exact path="/Outreach" component={Outreach} />
         </Switch>
       </div>
     </Router>
