@@ -9,7 +9,7 @@ const Contact = () => {
           <div class="right">
             <h2>Contact Us/Prayer Request</h2>
             <form
-              action="https://formsubmit.co/arcane1241@gmail.com"
+              action="https://formsubmit.co/tholoim247@gmail.com"
               method="POST"
             >
               <input type="hidden" name="_captcha" value="false" />
