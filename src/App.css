@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+  font-family: "Comic Sans MS", sans-serif;
+}
+
+.body {
+  background-color: #fbfbfb;
+}
+
+#root {
+  background-color: #292929;
+}

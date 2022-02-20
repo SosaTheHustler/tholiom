@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Comic Sans MS", sans-serif;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  height: 65px;
+  position: fixed;
+  width: 100%;
+  padding: 0px 50px;
+  border-bottom: 1px solid #ccc;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+}
+.nav_logo {
+  width: 90px;
+}
+.section1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.section2 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.nav_list {
+  display: flex;
+  justify-content: flex-end;
+}
+.logo {
+  width: 75px;
+}
+
+.nav_item {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.nav-link {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  font-size: 13px;
+  color: black;
+  font-weight: 500;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  padding: 5px;
+}
+.nav_item a:active {
+  color: black;
+}
+
+.nav_item a:visited {
+  color: black;
+}
+
+.nav_item:hover {
+  cursor: pointer;
+}
+.nav_item:hover .nav-link {
+  border-bottom: 1px solid black;
+  cursor: pointer;
+}
+
+.burger {
+  display: none;
+}
+
+.button {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  font-size: 13px;
+  color: white;
+  font-weight: 550;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  background-color: #00adff;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.button:hover {
+  background-color: rgb(0, 101, 255);
+  transition: 0.2s;
+}
+.social-height {
+  height: 20px;
+  padding: 0px 10px;
+}
+
+.socials {
+  display: flex;
+  padding: 0px 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social_icon {
+  width: 20px;
+}
+
+.spacer {
+  height: 65px;
+}
+.drop {
+  display: none;
+}
+#drop {
+  display: none;
+}
+.drop-down {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-top: 5px;
+  text-align: left;
+}
+
+.drop-down a:hover {
+  background-color: #00adff;
+}
+
+.drop-down a {
+  background-color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  font-size: 13px;
+  color: black;
+  font-weight: 500;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  padding: 10px 5px;
+}
+
+.ministry:hover .drop {
+  display: block;
+}
+.nav_resp {
+  display: none;
+}
+
+.show-nav {
+  display: block !important;
+}
+.nav_list2 {
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 101;
+  width: 100%;
+}
+.nav_list2 .nav_item {
+  padding: 20px;
+}
+.nav_list2 .nav_item:hover {
+  background: #00adff;
+}
+.nav_list2 .nav_item .nav-link {
+  font-size: 30px;
+  border: none !important;
+}
+
+.nav_close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  width: 50px;
+}
+@media screen and (max-width: 1030px) {
+  nav {
+    padding: 0px 10px;
+  }
+
+  .section1 a img {
+    width: 60px;
+  }
+  .nav_item {
+    padding: 7px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .nav_list {
+    display: none;
+  }
+
+  .section1 a img {
+    width: 100px;
+    padding: 7px;
+  }
+  .burger {
+    display: block;
+    width: 30px;
+    margin-right: 20px;
+  }
+  .drop-down {
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .socials {
+    display: none;
+  }
+  .button {
+    width: 140px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+
+  .user {
+    width: auto;
+    padding: 0px !important;
+  }
+
+  .user p {
+    font-size: 15px !important;
+  }
+
+  .nav-end {
+    justify-content: flex-end;
+    margin-right: 5px;
+  }
+
+  .container {
+    padding: 10px 20px;
+  }
+  .icon {
+    width: 30px;
+    border: none !important;
+    max-height: 4vh !important;
+    padding: 0px !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .button {
+    font-size: 10px;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .burger {
+    display: block;
+    width: 10%;
+  }
+}
