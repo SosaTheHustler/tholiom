@@ -7,7 +7,7 @@ const Home = () => {
     <div>
       <div className="background">
         <div className="title">
-          Tholiom | The Hope Of Life Outreach International Ministries
+          Tholiom | The Hope Of Life International Outreach Ministries
         </div>
         <div className="slogan">
           <h1>
